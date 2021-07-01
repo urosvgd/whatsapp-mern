@@ -1,0 +1,20 @@
+{
+  "name": "mern-whatsapp",
+  "version": "1.0.0",
+  "description": "Mongo, Express, React, Node for WhatsApp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Uros Jovicic",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.0"
+  }
+}
